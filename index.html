@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日祝福</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            font-family: "Arial", sans-serif;
+        }
+        .birthday-text {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ff6b6b;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: colorChange 3s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% {
+                color: #ff6b6b;
+            }
+            25% {
+                color: #feca57;
+            }
+            50% {
+                color: #1dd1a1;
+            }
+            75% {
+                color: #5f27cd;
+            }
+            100% {
+                color: #ff9f43;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-text">陆泊舟生日快乐</div>
+</body>
+</html>
